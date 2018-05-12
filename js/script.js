@@ -1,42 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>GIPHY Image Search</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
-
-
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-</head>
-<body>
-<h1><i class="fas fa-star"></i>
-
-    Search for Gifs!
-    <i class="fas fa-star"></i>
-
-
-</h1>
-<div id="buttons" class="row"></div>
-<div class="row">
-
-
-<div id="gifs-appear-here" class="col-md-9"></div>
-<div id="search" class="col-md-3"><h4>Make a New Button!</h4>
-        
-        <input type="text" name="username" id="submission">
-        <br><br>
-        <input type="submit" value="Submit" id="submitButton">
-
-    </div>
-</div>
-        
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript">
-
 //defines an array with preset buttons
 var animalList = ["Cat", "Bunny", "Duck", "Otter", "Bird", "Penguin", "Kitten", "Parrot", "Bees", "Bears", "Battlestar Galactica"]
 
@@ -150,7 +111,3 @@ if (state === "still") {
   $(this).attr("data-state", "still");
 }
 });
-
-</script>
-</body>
-</html>

@@ -1,3 +1,18 @@
+h1 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    background-color: powderblue;
+    padding: 30px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+   
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 body {
     background-color: white;
 }
@@ -5,7 +20,22 @@ body {
 button {
     margin-left: 25px;
     margin-top: 20px;
-    width: 90px;
+    /* width: 90px; */
+    padding: 30px;
+    text-align: center;
+}
+
+.images {
+    float: left;
+    margin: 30px;
+}
+
+/* #search {
+ 
+    text-align: center;
+} */
+
+#gifs-appear-here {
     text-align: center;
 }
 
